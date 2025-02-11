@@ -31,4 +31,4 @@ def main(page: ft.Page):
     page.update()
     page.add(titulo, sub_titulo, citacao)
 
-ft.app(target = main, assets_dir = "Arquivos Úteis") #Inicializar o App com a função Main
+ft.app(target = main, assets_dir = "Arquivos_Úteis") #Inicializar o App com a função Main
