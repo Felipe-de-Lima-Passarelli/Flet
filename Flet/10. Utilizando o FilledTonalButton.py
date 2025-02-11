@@ -19,4 +19,4 @@ def main(page: ft.Page):
         ft.FilledTonalButton(text = "Botão secundário com estilo", style = ft.ButtonStyle(shape = ft.RoundedRectangleBorder(radius = 0)))
     )
 
-ft.app(target = main, assets_dir = "Arquivos Úteis") #Inicializar o App com a função Main
+ft.app(target = main, assets_dir = "../Arquivos_Úteis") #Inicializar o App com a função Main

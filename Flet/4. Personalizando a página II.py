@@ -45,4 +45,4 @@ def main(page: ft.Page):
 
     page.update() #Atualizar as mudanças do App
 
-ft.app(target=main) #Inicializar o App com a função Main
+ft.app(target = main) #Inicializar o App com a função Main

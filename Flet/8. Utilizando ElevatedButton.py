@@ -74,4 +74,4 @@ def main(page: ft.Page):
 
     page.add(botao_1, botao_2, botao_3, botao_4, botao_5, botao_6, texto)
 
-ft.app(target = main, assets_dir = "Arquivos Úteis") #Inicializar o App com a função Main
+ft.app(target = main, assets_dir = "../Arquivos_Úteis") #Inicializar o App com a função Main

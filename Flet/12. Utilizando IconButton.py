@@ -22,4 +22,4 @@ def main(page: ft.Page):
 
     page.add(botao_1, botao_2)
 
-ft.app(target = main, assets_dir = "Arquivos Úteis") #Inicializar o App com a função Main
+ft.app(target = main, assets_dir = "../Arquivos_Úteis") #Inicializar o App com a função Main

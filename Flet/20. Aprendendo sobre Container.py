@@ -28,4 +28,4 @@ def main(page: ft.Page):
 
     page.add(container)
 
-ft.app(target = main, assets_dir = "Arquivos Úteis") #Inicializar o App com a função Main
+ft.app(target = main, assets_dir = "../Arquivos_Úteis") #Inicializar o App com a função Main
